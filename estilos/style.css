@@ -25,7 +25,7 @@ main{
     height: 100vh;
     width: 100vw;
 }
-section#login{
+.login{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -36,14 +36,23 @@ section#login{
     height: 500px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.644);
+    transition: width .4s, height .4s;
+    transition-timing-function: ease;
 }
 
-section#login > div#imagem{
+.imagem{
     display: block;
     background-image: url(../imagens/pexels-life-of-pix-8892.jpg);
     height: 200px;
 }
-section#login > div#form{
+.form{
     display: block;
     padding: 10px;
+}
+.form > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form > p{
+    font-size: 0.8em;
 }
