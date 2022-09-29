@@ -1,9 +1,11 @@
 @charset "UTF-8";
 
+
+/* Tablet */
 @media screen and (min-width: 768px) and (max-width:992px) {
     .login{
         width: 80vw;
-        
+        height: 250px;
     }
     .login > .imagem {
         float: left;
@@ -16,9 +18,12 @@
     }
 }
 
+
+/* PC */
 @media screen and (min-width : 992px) {
     .login {
-        width: 950px
+        width: 950px;
+        height: 270px;
     }
     .login > .imagem {
         float: right;
